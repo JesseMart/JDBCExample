@@ -66,7 +66,7 @@ public class Runner {
 			dbCon.tearDown();
 	}
 }
-		
+		//STARTTING  MENU
 		private static String getAction() {
 			String menuMsg = "==================================================\n"+"IMS System:\n"+ "==================================================\n"                 
 					+ "\t- Create\t create a new customer" + "\n"                
@@ -84,6 +84,8 @@ public class Runner {
 	
 		
 }
+
+ //==============================BASIC GET CONNECTION EXAMPLE =================================
 //try {
 //Connection con = DriverManager.getConnection("jbdc:mysql://localhost:3306/jbdc_example?db_name&serverTimezone=UTC"
 //		, "root", "mJ051396");
